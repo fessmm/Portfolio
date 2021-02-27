@@ -66,6 +66,15 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  //Headings
+  h1,
+  h2,
+  h3 {
+    &.lg-heading {
+      font-size: 4rem;
+    }
+  }
 }
 
 // Smartphones
